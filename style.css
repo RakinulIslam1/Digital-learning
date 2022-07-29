@@ -11,3 +11,19 @@ main{
 .bottom{
     margin-top: 100px;
 }
+
+@media only screen and (max-width:688px) {
+    .media {      
+        flex-direction: column;
+        text-align: center;
+    }
+    .mobo{
+        width: 100%;
+    }
+    .aling{
+        text-align: center;
+    }
+    .size1{
+        font-size: 50%;
+    }
+}
